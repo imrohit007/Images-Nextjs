@@ -1,6 +1,6 @@
 
-Play with Images
-Masking
+## Play with Images
+## Masking
 ## Getting Started
 
 First, run the development server:
