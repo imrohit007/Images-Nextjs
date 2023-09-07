@@ -25,3 +25,23 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.image-mask-container {
+  position: relative;
+  width: 300px; /* Adjust this to your image dimensions */
+  height: 300px; /* Adjust this to your image dimensions */
+}
+
+.base-image, .mask-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+}
+
+.mask-image {
+  mix-blend-mode: multiply; /* This blend mode creates the masking effect */
+  object-fit: cover; /* Ensures the mask image covers the container */
+  object-position: center; /* Centers the mask image */
+  opacity: 1; /* Adjust the opacity as needed */
+}
